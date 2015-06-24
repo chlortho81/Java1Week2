@@ -16,7 +16,7 @@ class MathEx {
 
         l = j / i; // division
 
-        f = f * d; // error why????? fix it!
+        d = (float)((f*d)); // error why????? fix it!
         
         i = 17 % 3; // modulus
 
