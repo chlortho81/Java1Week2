@@ -71,7 +71,7 @@ class Emp_Ex5 {
 		// Now, let's use the reference
 
 		System.out.println(" The gross salary for " + empref.name);
-		System.out.println(" when he/she has worked " empref.hours);
+		System.out.println(" when he/she has worked " + empref.hours);
 		System.out.println(" hours and the employee's rate of pay is " + empref.rate);
 		System.out.println(" dollars an hour is " + employee_gross_pay);
 	}
