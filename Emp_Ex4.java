@@ -19,6 +19,7 @@ class Emp_Ex4 {
 
         Emprec employee = new Emprec();
         Emprec employee2 = new Emprec();
+        Emprec employee3 = new Emprec();
         double employee_gross_pay;
 
         // Let's assign values to both employee's objects
@@ -31,6 +32,10 @@ class Emp_Ex4 {
         employee2.name = " Butch Barkley ";
         employee2.hours = 3;
         employee2.rate = 6.25;
+
+        employee3.name = " Jennifer Whittle ";
+        employee3.hours = 35;
+        employee3.rate = 22.00;
 
         // Let's compute the gross salary for Mary
 
@@ -48,10 +53,16 @@ class Emp_Ex4 {
 
         System.out.println("is " + employee_gross_pay);
 
+        // Compute the gross salary for Jennifer
+
+        System.out.print(" The gross salary for " + employee3.name );
+        
+        employee_gross_pay = employee3.calc_gross_pay();
+
+        System.out.println(" is " + employee_gross_pay);
     }
 
 }
-
 
 
 
